@@ -1,0 +1,22 @@
+{
+  "name": "db-harrypotter",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "studio": "npx prisma studio"
+  },
+  "keywords": [
+    "SENAI",
+    "database"
+  ],
+  "author": "Beatriz Miotto",
+  "license": "",
+  "description": "Aula sobre Banco de Dados",
+  "dependencies": {
+    "@prisma/client": "^6.16.3",
+    "prisma": "^6.16.3"
+  }
+}
